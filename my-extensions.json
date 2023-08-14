@@ -1,0 +1,106 @@
+{
+    "tags": {
+        "script": "a general extension that adds functionality",
+        "localization": "a localization extension that translates web ui into another language",
+        "tab": "adds a tab",
+        "dropdown": "adds a dropdown in the ui",
+        "ads": "contains ads",
+        "installed": "an extension that is already installed",
+        "training": "new type of training / assists with training.",
+        "models": "conversion and merging related.",
+        "UI related": "enhances the display or user interface experience.",
+        "prompting": "assists with writing words, for prompts.",
+        "editing": "an extension that changes images, not using stable diffusion.",
+        "manipulations": "an extension that changes images with stable diffusion.",
+        "online": "an extension which requires wifi to use, often API related.",
+        "animation": "an extension related to creating videos with stable diffusion.",
+        "query": "extracting info from images.",
+        "science": "experimentation with stable diffusion.",
+        "extras": "adds new functionality to the extras tab."
+    },
+    "extensions": [
+        {
+            "name": "stable-diffusion-webui-state",
+            "url": "https://github.com/ilian6806/stable-diffusion-webui-state.git",
+            "description": "Preserves the UI state after reload/restart.",
+            "added": "2023-03-19",
+            "tags": [
+                "script"
+            ],
+            "full_name": "ilian6806/stable-diffusion-webui-state",
+            "github_description": "Stable Diffusion extension that preserves ui state",
+            "stars": 149,
+            "default_branch": "main",
+            "created_at": "2023-03-19T13:45:28Z",
+            "default_branch_commit_sha": "f2bb3809aa61b814aff5808382560f4803d1b132",
+            "commit_time": "2023-07-20T06:12:49Z"
+        },
+        {
+            "name": "Artists to study",
+            "url": "https://github.com/camenduru/stable-diffusion-webui-artists-to-study.git",
+            "description": "Shows a gallery of generated pictures by artists separated into categories.",
+            "added": "2022-11-01",
+            "tags": [
+                "tab",
+                "UI related"
+            ],
+            "full_name": "camenduru/stable-diffusion-webui-artists-to-study",
+            "github_description": null,
+            "stars": 67,
+            "default_branch": "master",
+            "created_at": "2022-10-25T16:07:14Z",
+            "default_branch_commit_sha": "5cd19f68f65e994fc2ef2700bed4d9efe28e48b4",
+            "commit_time": "2023-06-26T08:38:08Z"
+        },
+        {
+            "name": "Infinite image browsing",
+            "url": "https://github.com/zanllp/sd-webui-infinite-image-browsing.git",
+            "description": "A fast image browser that allows browsing all images without paging, and supports joint search using image parameters, with a layout similar to VS Code.",
+            "added": "2023-04-16",
+            "tags": [
+                "tab",
+                "UI related"
+            ],
+            "full_name": "zanllp/sd-webui-infinite-image-browsing",
+            "github_description": "A fast and powerful image browser for Stable Diffusion webui and ComfyUI with infinite scrolling and joint search using image parameters. Supports standalone operation.",
+            "stars": 411,
+            "default_branch": "main",
+            "created_at": "2023-03-07T18:26:27Z",
+            "default_branch_commit_sha": "d015f3e86e9474362b4be17a80fd436e5c63b4fd",
+            "commit_time": "2023-08-09T13:50:22Z"
+        },
+        {
+            "name": "Inspiration",
+            "url": "https://github.com/yfszzx/stable-diffusion-webui-inspiration.git",
+            "description": "Randomly display the pictures of the artist's or artistic genres typical style, more pictures of this artist or genre is displayed after selecting. So you don't have to worry about how hard it is to choose the right style of art when you create.",
+            "added": "2022-11-01",
+            "tags": [
+                "tab",
+                "UI related"
+            ],
+            "full_name": "yfszzx/stable-diffusion-webui-inspiration",
+            "github_description": null,
+            "stars": 102,
+            "default_branch": "main",
+            "created_at": "2022-10-20T14:21:15Z",
+            "default_branch_commit_sha": "0f3f699decfadcf88d7483d214877fbf96f1f488",
+            "commit_time": "2022-12-09T03:50:47Z"
+        },
+        {
+            "name": "Aspect Ratio selector",
+            "url": "https://github.com/alemelis/sd-webui-ar.git",
+            "description": "Adds image aspect ratio selector buttons.",
+            "added": "2023-02-04",
+            "tags": [
+                "UI related"
+            ],
+            "full_name": "alemelis/sd-webui-ar",
+            "github_description": "Select img aspect ratio from presets in sd-webui",
+            "stars": 126,
+            "default_branch": "main",
+            "created_at": "2023-02-02T10:36:43Z",
+            "default_branch_commit_sha": "04ee2c6c60ca4534ab7f2d22518a3c5d2001fe83",
+            "commit_time": "2023-07-06T10:14:29Z"
+        }
+    ]
+}
